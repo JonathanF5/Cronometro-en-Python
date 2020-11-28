@@ -36,11 +36,19 @@ class cronometro:
             
         print("El cronometro a bajado la velocidad hasta ",frenado,"km/h")
 
-cron = cronometro()
+cron = cronometro
+
 cron.marca = "Sony"
+
 cron.mostrarDatos()
+
 cron.encender()
+
 cron.acelerar(120)
-cron.frenar(120,60)
+
+cron.frenar(120,60) 
+
 cron.apagar()
+
+
 
