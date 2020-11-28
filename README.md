@@ -4,7 +4,9 @@ Cronometro Orientado a Objetos en Python
 import time
 
 class cronometro:
-    marca = ""
+
+    marca = "" 
+    
     velocidad = 0
     
     def mostrarDatos(self):
